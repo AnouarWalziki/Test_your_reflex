@@ -17,11 +17,7 @@ int main()
         game.update();
         //Render
         game.render();
-
-        //Draw your game
-
+        
     }
-
-
 }
 
