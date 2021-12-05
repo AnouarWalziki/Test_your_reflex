@@ -3,7 +3,7 @@
 //Private Functions
 void Game::initVariables()
 {
-	this->window = nullptr;
+    this->window = nullptr;
     this->endGame = false;
     this->difficulty = 3000.f;
     this->points = 0;
@@ -69,8 +69,8 @@ void Game::initEnemies()
 // Constructor / Destructor
 Game::Game()
 {
-	this->initVariables();
-	this->initWindow();
+    this->initVariables();
+    this->initWindow();
     this->iniSounds();
     this->initFonts();
     this->initText();
